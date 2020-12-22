@@ -1,0 +1,8 @@
+bindkey -s '^[OP' 'play -n synth 0.1 sine F#4 > /dev/null 2>&1^J'
+bindkey -s '^[OQ' 'play -n synth 0.1 sine G#4 > /dev/null 2>&1^J'
+bindkey -s '^[OR' 'play -n synth 0.1 sine A4 > /dev/null 2>&1^J'
+bindkey -s '^[OS' 'play -n synth 0.1 sine B4 > /dev/null 2>&1^J'
+bindkey -s '^[[15~' 'play -n synth 0.1 sine C#5 > /dev/null 2>&1^J'
+bindkey -s '^[[17~' 'play -n synth 0.1 sine D5 > /dev/null 2>&1^J'
+bindkey -s '^[[18~' 'play -n synth 0.1 sine E5 > /dev/null 2>&1^J'
+bindkey -s '^[[19~' 'source fsmajor.sh > /dev/null 2>&1^J'
